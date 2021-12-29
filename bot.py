@@ -12,7 +12,7 @@ def classify_image(bot, update, net, util):
     update.message.reply_markdown(text)
 
 def main():
-    TOKEN = os.getenv("TOKEN")
+    TOKEN = os.getenv("TOKEN", 2035867980:AAFZbz4StNXnM9gm0DgnN-u1bFH69_rnV2E)
 
     updater = Updater(TOKEN)
     dp = updater.dispatcher
